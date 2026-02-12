@@ -1,0 +1,7 @@
+/* Example: style comments */
+.mtk3 {
+  font-size: 16px !important;   /* bigger font */
+  font-weight: bold !important; /* bold text */
+  background-color: rgba(255, 140, 0, 0.2) !important; /* highlight */
+}
+
