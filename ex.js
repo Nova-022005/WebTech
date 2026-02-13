@@ -70,7 +70,7 @@ const person={
 }
 
 
-console.log(person.adress.city)
+// console.log(person.adress.city)
 
 class Address{
 constructor(city,state){
@@ -122,11 +122,26 @@ city:"noida"
 const { name1:nam , city:sahar, age=12 } = obj1;//? we can replace key by alias name by using
 //* key_name:alias_name
 
-console.log(`${nam} ${age} ${sahar}`);
+// console.log(`${nam} ${age} ${sahar}`);
 
 //! default in onject
 
 let {country="India"}=obj1;
 
-console.log(country)
-console.log(obj1);
+// console.log(country)
+// console.log(obj1);
+
+// * deep copy and shallow copy in spread
+
+//? in case of of spread it copy the arrays in deep copy but in case of nested 
+// ? it copy it as shallow in a 
+// ! spread allways make a shallow copy whether the new array change orignal depent if it primitiv or not 
+//* if it is primitive the value will not chnage on other hand if not it will
+//? not change.
+
+let nums1=[{}]
+let nums2=[...nums1]
+
+nums2[0]=100
+
+console.log(nums1[0]);
