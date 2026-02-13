@@ -38,4 +38,25 @@ function processUserInput(Callback){
 
 // processUserInput(greet);
 
+//* ________promise______________
+
+function delivered() {
+  console.log("Food is delivered");
+}
+
+let promise = new Promise((resolve, reject) => {
+  // Simulate an async task, e.g., delivery
+  let foodArrived = false;
+
+  if (foodArrived) {
+    resolve(); // success
+  } else {
+    reject("Delivery failed");
+  }
+});
+
+promise
+  .then(delivered) // runs when resolved
+  .catch(error => console.error(error));
+
 
