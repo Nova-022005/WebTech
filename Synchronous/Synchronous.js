@@ -15,13 +15,27 @@
 
 //! program that take long time to run are put in background
 
-console.log("start");
+// console.log("start");
 
-setTimeout(function Task(){//? A hold of 2 sec is put so that other task can finish runing 
-for(let i=0;i<1e10; i++){}
-console.log("Hello, World");
-} ,2000);
+// setTimeout(function Task(){//? A hold of 2 sec is put so that other task can finish runing 
+// for(let i=0;i<1e10; i++){}
+// console.log("Hello, World");
+// } ,2000);
 
-console.log("end");
+// console.log("end");
+
+
+//***********Basic callback  */
+
+function greet(name){
+  console.log(`hello ${name}`);
+}
+
+function processUserInput(Callback){
+  let name="Saurav"
+  Callback(name);
+}
+
+// processUserInput(greet);
 
 
