@@ -67,3 +67,17 @@ const {course_instructor:c_ins}=course
 
 console.log(c_ins);
 
+//************API */
+
+//? An API (Application Programming Interface) is basically a set of rules and tools that lets different software systems talk to each other.
+//! in form of json (java object notation)object
+// {
+//   "name":"saurav",
+//   "course_name" : "prograing",
+
+// }
+//! api in form of array 
+[
+  {},
+  {}
+]
