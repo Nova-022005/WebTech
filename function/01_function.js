@@ -14,5 +14,3 @@ const add=(a,b)=>{
 
 const ans=add(3,4);
 console.log(ans);
-
-
