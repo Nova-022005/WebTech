@@ -42,9 +42,23 @@ function chai(){
 ////////////////////////////////////////////////
 
 //*___________ARROW FUNCTION
+
+//? behaviour with -> function
 const chai02 = ()=> {
   console.log(this);
   
 } 
 
 chai02()//? return {}
+
+const addTwo=(num1,num2)=>{return num1+num2}
+
+console.log(addTwo(3,5));
+
+
+//*________Implicit return____________
+//? in a single line no need to write return
+const addTwo02=(num1,num2)=>(num1+num2)
+
+console.log(addTwo02(3,4));
+
