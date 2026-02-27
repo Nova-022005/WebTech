@@ -12,6 +12,15 @@ chai();
 
 //! IIFE
 //?* first () for fun declaration section for call\
+
+// for immediatatly invoking function
 (function chai1(){
   console.log("DB CONNECTED.");
-})()
+})();
+
+//! IN cases of Immdiadetatly invoked function we have to put ; to stop the context
+
+( function chaiaurcode() {
+  console.log("DB connected");
+  
+} )()
