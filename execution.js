@@ -14,6 +14,16 @@
 
 //  memory is allocated
 
+
+let val1=10; 
+let val2=20;
+
+function addNUm(val1,val2){
+  console.log(val1+val2);
+}
+addNUm(val1,val2);
+
+
 //  ->> Execution Phase
 
 
