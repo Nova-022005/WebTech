@@ -12,4 +12,11 @@ console.log("not same");
 
 //!  === is for matching both datadtype and value
 //? == only for value
-//? != not eual and just !x not x
+//? != not eual and just !x not x.
+
+
+//! Implicit Scope
+
+if(2===2) console.log("implicit scope ");
+
+
