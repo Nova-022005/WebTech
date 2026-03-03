@@ -24,11 +24,9 @@ if(2===2) console.log("implicit scope ");
 
 let val1;
 
-val1=5 ?? 10;
+val1=null;
 
 console.log(val1);
 
-function car(val1 ?? 10 ){
 
-}
 
