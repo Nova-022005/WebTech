@@ -20,3 +20,15 @@ console.log("not same");
 if(2===2) console.log("implicit scope ");
 
 
+//* Nullish Coalescing Operator (??) : null undefined.
+
+let val1;
+
+val1=5 ?? 10;
+
+console.log(val1);
+
+function car(val1 ?? 10 ){
+
+}
+
