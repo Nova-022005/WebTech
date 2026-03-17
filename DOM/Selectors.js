@@ -23,9 +23,10 @@
 //* innerText  --> inner text which is visible or in the class or id
 //* textContent  ---> all text that is in the class or id
 
-document.get
+// document.get
 
 //? Node list and Arrays colllection both are not pure array
 //*but still Nodelist can be acessed as array and foreach function can be used
 
 
+//? const  myConvertedArray=Array.from(htmlcollection_name);
