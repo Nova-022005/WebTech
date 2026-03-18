@@ -8,5 +8,20 @@
 <body  style="color :white ;background-color:rgb(23, 26, 27)">
   
 </body>
-<script></script>
+<script>
+  const div= document.createElement('dive');
+  console.log(div);
+  div.className="main";
+  div.id=Math.round(Math.random()*10+1);
+
+  div.setAttribute("title","generated titile")
+  div.style="background: green"; 
+  div.style.padding="12px";
+  div.style.color="black";
+  // div.innerText="Chai aur code";
+  const addText=document.createTextNode("Chai aur code");
+  div.appendChild(addText)
+  document.body.appendChild(div)
+  
+</script>
 </html>
