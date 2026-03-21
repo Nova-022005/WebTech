@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: aquamarine;
+}
+.center{
+  display: flex ;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh;
+}
+#clock{
+  height: 10vh;
+  width: 15vw;
+  background-color: rgb(255, 166, 0);
+  border-radius: 9px;
+  margin-top:15px;
+   display: flex ;
+  align-items: center; 
+  justify-content: center;
+  font: small-caps bold 24px/1.5 'Segoe UI', Arial, sans-serif;
+  color: rgb(248, 246, 246);
+  border: 3px solid white;
+
+}
+#banner{
+  font-size: 30px;
+}
