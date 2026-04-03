@@ -46,7 +46,7 @@ form input{
 }
 .instruction{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgba(127, 255, 212, 0.301);
+  color: rgba(18, 173, 28, 0.301);
   font-size: 12px;
 }
 .record{
@@ -58,5 +58,5 @@ form input{
   font-size: 25px;
   font-weight: bold;
   border-radius: 9px;
-  border: 2px solid rgb(3, 177, 79);
+  border: 2px solid rgb(19, 220, 106);
 }
