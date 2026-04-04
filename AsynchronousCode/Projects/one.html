@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chai aaur Code</title>
+</head>
+<body>
+  <h1>Chai aur Code</h1>
+  <button id="stop">Stop</button>
+
+</body>
+<script>
+  
+
+const changeMe=setTimeout(function(){
+  console.log("Saurav");
+},2000);
+// above code will execute the function after 2 sec , we can also pass the handler by reference .
+// to stop a setTimeout before it execute we use 
+
+document.querySelector('#stop').addEventListener('click',function(e){
+  clearTimeout(changeMe);
+  console.log('setTimeout stoped');
+})
+
+
+</script>
+</html>
