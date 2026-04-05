@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chai aur Code</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    button {
+      height: 8vh;
+      width: 10vw;
+      border-radius: 10px;
+      background-color: rgb(191, 126, 79);
+      border: 2px solid white;
+      font-size: 17px;
+    }
+
+    .card {
+      background-color: rgb(76, 55, 180);
+      border-radius: 15px;
+      box-sizing: border-box;
+      overflow: hidden;
+      display: grid;
+      grid-row: auto auto;
+      grid-template-columns: 1fr 1fr;
+    }
+    #photp{ grid-area: photo;}
+    #name{grid-area: name;}
+    #followers{grid-area: follower;}
+
+    #photo {
+      grid-row: 1;
+      grid-column: 1/span 2;
+      /* background-size:cover ; */
+    }
+    #info{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column: 1/span 2;
+      margin: 5px;
+    }
+    #name{
+      margin: 3px;
+      grid-row: 2;
+      grid-column: 1;
+      text-align: left;
+    }
+    #followers{
+      margin: 3px;
+      grid-row: 2;
+      grid-column: 2;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body style="background-color: #212121; color: beige;">
+  <button id="getNova">Get Nova</button>
+  <div class="container">
+    <div class="card">
+      <div id="photo"></div>
+      <div id="info">
+        <p id="name"></p>
+        <p id="followers"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="Git.js"></script>
+</body>
+
+</html>
