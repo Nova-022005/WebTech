@@ -10,6 +10,11 @@
 </body>
 <script>
   class React{
+
+    //* When you pass a method as a callback, this often gets lost.
+
+//*  bind() ensures the function always runs with the correct this.
+
     constructor(){
       this.library="React"
       this.server="https://localhost:300"
@@ -24,5 +29,8 @@
     }
   }
   const app=new React();
+
+  // the bind keyword is use d to  ensure that the insatnce / contest of this don't get loss 
+//? The bind() method in JavaScript is mainly used to fix the value of this inside a function, ensuring it always refers to the intended object, even when the function is passed around or used as a callback. It also allows partial application of arguments, making functions more reusable and predictable.
 </script>
 </html>
