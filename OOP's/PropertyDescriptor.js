@@ -25,6 +25,6 @@ Object.defineProperty(chai,'price',{
 console.log(Object.getOwnPropertyDescriptor(chai,"price"));
 
 for(let [key,value] of Object.entries(chai)){
-  console.log(`${key} => ${value}`);
+  console.log(`${key} =>i ${value}`);
   
 }
